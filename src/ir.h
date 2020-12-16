@@ -3,7 +3,7 @@
 #include <IRsend.h>
 #include <ir_Neoclima.h>
 
-const uint16_t kIrLed = 2;  // ESP8266 GPIO pin to use. Recommended: 4 (D2).
+const uint16_t kIrLed = 4;  // ESP8266 GPIO pin to use. Recommended: 4 (D2).
 IRNeoclimaAc ac(kIrLed);
 
 void printState() {
